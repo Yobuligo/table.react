@@ -1,3 +1,5 @@
-export interface ITableRowProps<T extends object> {
+import { Row } from "../types/Row";
+
+export interface ITableRowProps<T extends Row> {
   data: T;
 }
